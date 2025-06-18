@@ -1,0 +1,56 @@
+body{
+    background-color: lightgray;
+    margin: 20px;
+}
+
+header{
+    background-color:orangered;
+    color: beige;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0,0,1);
+    background-color: aliceblue;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  
+
+}
+th,td{
+    border: 1px solid black;
+}
+
+ input[type="email"],
+    input[type="date"],
+    input[type="number"],
+    textarea,
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      
+    }
+      button:hover {
+      background-color:antiquewhite;
+    }
+
+    label {
+      font-weight: bold;
+    }
+    footer{
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+    }
